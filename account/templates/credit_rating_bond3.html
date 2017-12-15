@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>
+                {{request.user}}&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% endif %}
+    </div>
+    <script language="javascript">
+        function sumbit_sure(){
+        var gnl=confirm("确定提交?");
+        if (gnl==true){
+            return true;
+        }else{
+            return false;
+        }
+        }
+    </script>
+</head>
+
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+
+<style>
+        table {
+               border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        thead {
+            visibility: hidden;
+        }
+</style>
+
+<body>
+    <h4>请输入债券评级信息：</h4>
+
+    选择评级类型：
+    <a href="/credit_rating/bond1">一般债项</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="/credit_rating/bond2">城投债</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    地产债
+
+    <form method='post' onsubmit="return sumbit_sure()">
+        <br/>
+        {{ form.bond_code.label }}: {{ form.bond_code }}
+        <br/><br/>
+        手工因子：
+        <br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>项目</th>
+                <th>得分</th>
+                <th>备注信息</th>
+            </tr>
+
+            <tr> <td> {{ form.background.label }} </td> <td>{{ form.background }}</td> <td>{{ form.background_remarks }}</td> </tr>
+            <tr> <td> {{ form.industry.label }} </td> <td>{{ form.industry }}</td> <td>{{ form.industry_remarks }}</td> </tr>
+            <tr> <td> {{ form.external_warranty.label }} </td> <td>{{ form.external_warranty }}</td> <td>{{ form.external_warranty_remarks }}</td> </tr>
+            <tr> <td> {{ form.asset_warranty.label }} </td> <td>{{ form.asset_warranty }}</td> <td>{{ form.asset_warranty_remarks }}</td> </tr>
+            <tr> <td> {{ form.industry_boom.label }} </td> <td>{{ form.industry_boom }}</td> <td>{{ form.industry_boom_remarks }}</td> </tr>
+            <tr> <td> {{ form.industry_prospects.label }} </td> <td>{{ form.industry_prospects }}</td> <td>{{ form.industry_prospects_remarks }}</td> </tr>
+            <tr> <td> {{ form.industry_rank.label }} </td> <td>{{ form.industry_rank }}</td> <td>{{ form.industry_rank_remarks }}</td> </tr>
+            <tr> <td> {{ form.land_reserve.label }} </td> <td>{{ form.land_reserve }}</td> <td>{{ form.land_reserve_remarks }}</td> </tr>
+            <tr> <td> {{ form.future_expenditure.label }} </td> <td>{{ form.future_expenditure }}</td> <td>{{ form.future_expenditure_remarks }}</td> </tr>
+
+        </table>
+                <br/><br/>
+    <input type="submit" value="提交">
+    </form>
+
+<div class="well">
+        <br/>
+        <b>填写说明:</b>
+        <table border="0" align="center" width="500px">
+
+            <tr align="left">
+                <td>
+                    1.&nbsp;&nbsp;手工因子取值范围为[0，5] <br/>
+                    2.&nbsp;&nbsp;请在设定手工因子得分时，在“备注信息”一栏填写得分依据 <br/>
+                    3.&nbsp;&nbsp;系统对所有手工得分以及备注信息都存档留痕
+                </td>
+            </tr>
+            </table>
+            <br/><br/><br/>
+
+
+</div>
+
+</body>
+</html>

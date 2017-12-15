@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <h2>登陆成功！欢迎来到华菁资管！</h2>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>{{request.user}}&nbsp;&nbsp;&nbsp;&nbsp; <a href="/logout">注销</a> </li>
+        {% else %}
+            <li> <a href="/login">登录</a> <a href="/logout">注销</a> </li>
+        {% endif %}
+    </div>
+</head>
+
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+
+<body>
+    <div style= "font-size: 22px;">
+        <br/>请选择要进行的操作：<br/><br/>
+        <li>
+            <a href="/credit_rating/bond1">债券评级</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            {% if manager %}
+                <a href="/credit_rating_result/all/all/all/">查询评级结果</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            {% endif %}
+            <a href="/credit_rating_history/all/all/all/">查询历史评级记录</a>
+        </li>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,2009 @@
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+Performing system checks...
+
+November 29, 2017 - 06:13:23
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 06:14:07] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 06:14:13] "POST / HTTP/1.1" 302 0
+[29/Nov/2017 06:14:13] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 06:14:14] "GET /credit_rating_history/all/ HTTP/1.1" 200 6225
+[29/Nov/2017 06:14:15] "GET /download_file/user1_011641006.IB_20171129_055000.xls HTTP/1.1" 301 0
+[29/Nov/2017 06:14:16] "GET /download_file/user1_011641006.IB_20171129_055000.xls/ HTTP/1.1" 200 17920
+[29/Nov/2017 06:14:48] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 06:14:48] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 06:14:51] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 06:14:52] "GET /credit_rating/ HTTP/1.1" 200 3519
+/usr/local/anaconda3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField CRRecord.create_time received a naive datetime (2017-11-29 06:13:59.614521) while time zone support is active.
+  RuntimeWarning)
+/usr/local/anaconda3/lib/python3.6/site-packages/django/db/models/fields/__init__.py:1451: RuntimeWarning: DateTimeField CRResult.create_time received a naive datetime (2017-11-29 06:13:59.617734) while time zone support is active.
+  RuntimeWarning)
+[29/Nov/2017 06:15:12] "POST /credit_rating/ HTTP/1.1" 200 5343
+[29/Nov/2017 06:15:15] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 06:15:15] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 06:15:16] "GET /credit_rating_result/all/ HTTP/1.1" 200 3391
+[29/Nov/2017 06:15:17] "GET /credit_rating_detail/2 HTTP/1.1" 301 0
+[29/Nov/2017 06:15:17] "GET /credit_rating_detail/2/ HTTP/1.1" 200 4757
+[29/Nov/2017 06:15:18] "GET /credit_rating_result/all/ HTTP/1.1" 200 3391
+[29/Nov/2017 06:15:20] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 06:15:20] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 06:15:21] "GET /credit_rating_history/all/ HTTP/1.1" 200 8495
+Performing system checks...
+
+November 29, 2017 - 06:14:00
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 14:22:43] "GET /credit_rating_history/all HTTP/1.1" 301 0
+[29/Nov/2017 14:22:43] "GET /credit_rating_history/all/ HTTP/1.1" 200 8495
+[29/Nov/2017 14:22:45] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 14:22:45] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:22:45] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 14:22:46] "GET /credit_rating/ HTTP/1.1" 200 3519
+[29/Nov/2017 14:23:14] "POST /credit_rating/ HTTP/1.1" 200 5343
+[29/Nov/2017 14:23:19] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 14:23:19] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:23:20] "GET /credit_rating_result/all/ HTTP/1.1" 200 4213
+[29/Nov/2017 14:23:28] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 14:23:28] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:23:29] "GET /credit_rating_history/all/ HTTP/1.1" 200 10766
+[29/Nov/2017 14:24:19] "GET /credit_rating_history/all/ HTTP/1.1" 200 10766
+[29/Nov/2017 14:24:20] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 14:24:20] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:24:21] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 14:24:21] "GET /credit_rating/ HTTP/1.1" 200 3519
+[29/Nov/2017 14:24:22] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:29:38] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:29:40] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 14:29:40] "GET /credit_rating/ HTTP/1.1" 200 3519
+[29/Nov/2017 14:29:40] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:29:41] "GET /credit_rating_result/all/ HTTP/1.1" 200 4213
+[29/Nov/2017 14:29:44] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 14:29:45] "GET /credit_rating_result/all/ HTTP/1.1" 200 4213
+[29/Nov/2017 14:29:45] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 15:02:38] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 15:02:42] "GET /admin HTTP/1.1" 301 0
+[29/Nov/2017 15:02:42] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:02:43] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1806
+[29/Nov/2017 15:02:43] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[29/Nov/2017 15:02:43] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[29/Nov/2017 15:02:43] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[29/Nov/2017 15:02:43] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[29/Nov/2017 15:02:43] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[29/Nov/2017 15:02:43] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[29/Nov/2017 15:03:18] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:03:18] "GET /admin/ HTTP/1.1" 200 4014
+[29/Nov/2017 15:03:18] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[29/Nov/2017 15:03:18] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:18] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /admin/auth/user/ HTTP/1.1" 200 6872
+[29/Nov/2017 15:03:20] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:03:20] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:20] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:03:27] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:03:27] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[29/Nov/2017 15:03:27] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:27] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[29/Nov/2017 15:03:27] "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[29/Nov/2017 15:03:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:03:44] "POST /admin/auth/user/add/ HTTP/1.1" 200 5749
+[29/Nov/2017 15:03:44] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:04:18] "POST /admin/auth/user/add/ HTTP/1.1" 200 5674
+[29/Nov/2017 15:04:18] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:05:12] "POST /admin/auth/user/add/ HTTP/1.1" 200 5684
+[29/Nov/2017 15:05:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:05:56] "POST /admin/auth/user/add/ HTTP/1.1" 200 5706
+[29/Nov/2017 15:05:56] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:06:22] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:06:23] "GET /admin/auth/user/3/change/ HTTP/1.1" 200 14184
+[29/Nov/2017 15:06:23] "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:06:23] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:06:23] "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 304 0
+[29/Nov/2017 15:07:26] "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:07:27] "GET /admin/auth/user/ HTTP/1.1" 200 7482
+[29/Nov/2017 15:07:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:09:59] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:09:59] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:10:12] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:10:12] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 14184
+[29/Nov/2017 15:10:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:10:38] "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:10:38] "GET /admin/auth/user/ HTTP/1.1" 200 7916
+[29/Nov/2017 15:10:38] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:10:40] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:10:40] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:11:43] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:11:43] "GET /admin/auth/user/5/change/ HTTP/1.1" 200 14187
+[29/Nov/2017 15:11:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:11:57] "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:11:57] "GET /admin/auth/user/ HTTP/1.1" 200 8353
+[29/Nov/2017 15:11:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:13:04] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:13:05] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:13:16] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:13:16] "GET /admin/auth/user/6/change/ HTTP/1.1" 200 14184
+[29/Nov/2017 15:13:16] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:13:32] "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:13:32] "GET /admin/auth/user/ HTTP/1.1" 200 8786
+[29/Nov/2017 15:13:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:14:12] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:14:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:14:20] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:14:20] "GET /admin/auth/user/7/change/ HTTP/1.1" 200 14184
+[29/Nov/2017 15:14:20] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:14:34] "POST /admin/auth/user/7/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:14:34] "GET /admin/auth/user/ HTTP/1.1" 200 9220
+[29/Nov/2017 15:14:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:15:19] "GET /admin/auth/user/add/ HTTP/1.1" 200 5505
+[29/Nov/2017 15:15:19] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:15:26] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[29/Nov/2017 15:15:27] "GET /admin/auth/user/8/change/ HTTP/1.1" 200 14181
+[29/Nov/2017 15:15:27] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:15:41] "POST /admin/auth/user/8/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:15:41] "GET /admin/auth/user/ HTTP/1.1" 200 9651
+[29/Nov/2017 15:15:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:16:53] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:16:54] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:16:54] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:17:38] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:17:38] "GET /admin/ HTTP/1.1" 200 1773
+[29/Nov/2017 15:17:43] "GET /admin/password_change/ HTTP/1.1" 200 2593
+[29/Nov/2017 15:17:46] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:17:47] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:17:47] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:17:55] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:17:55] "GET /admin/ HTTP/1.1" 200 1773
+[29/Nov/2017 15:17:57] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:18:00] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:18:09] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:09] "GET /admin/ HTTP/1.1" 200 1774
+[29/Nov/2017 15:18:10] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:18:12] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:12] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:18:20] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:20] "GET /admin/ HTTP/1.1" 200 1773
+[29/Nov/2017 15:18:21] "GET /admin/password_change/ HTTP/1.1" 200 2593
+[29/Nov/2017 15:18:24] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:18:25] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:25] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:18:33] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:33] "GET /admin/ HTTP/1.1" 200 1773
+[29/Nov/2017 15:18:34] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:18:36] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:36] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:18:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:18:45] "GET /admin/ HTTP/1.1" 200 1772
+[29/Nov/2017 15:18:47] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 15:18:50] "GET /admin/ HTTP/1.1" 200 1772
+[29/Nov/2017 15:18:52] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:21:36] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 15:22:24] "GET /admin HTTP/1.1" 301 0
+[29/Nov/2017 15:22:24] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:22:24] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:22:34] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:22:34] "GET /admin/ HTTP/1.1" 200 6260
+[29/Nov/2017 15:22:43] "GET /admin/auth/user/ HTTP/1.1" 200 9476
+[29/Nov/2017 15:22:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:22:45] "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14015
+[29/Nov/2017 15:22:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:22:50] "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[29/Nov/2017 15:22:50] "GET /admin/auth/user/ HTTP/1.1" 200 9651
+[29/Nov/2017 15:22:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[29/Nov/2017 15:22:52] "GET /admin/logout/ HTTP/1.1" 200 1014
+[29/Nov/2017 15:22:53] "GET /admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:22:53] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1654
+[29/Nov/2017 15:22:58] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[29/Nov/2017 15:22:58] "GET /admin/ HTTP/1.1" 200 1772
+[29/Nov/2017 15:23:30] "GET /admin/logout/ HTTP/1.1" 200 1014
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 15:53:11] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 15:53:35] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 15:53:40] "POST / HTTP/1.1" 302 0
+[29/Nov/2017 15:53:40] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 15:53:42] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 15:53:42] "GET /credit_rating/ HTTP/1.1" 200 3519
+[29/Nov/2017 15:54:03] "POST /credit_rating/ HTTP/1.1" 200 5354
+[29/Nov/2017 15:54:05] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 15:54:05] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 15:54:06] "GET /credit_rating_result/all/ HTTP/1.1" 200 5033
+[29/Nov/2017 15:54:07] "GET /credit_rating_detail/4 HTTP/1.1" 301 0
+[29/Nov/2017 15:54:07] "GET /credit_rating_detail/4/ HTTP/1.1" 200 4767
+[29/Nov/2017 15:54:07] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 15:54:08] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 15:54:09] "GET /credit_rating_result/all/ HTTP/1.1" 200 5033
+[29/Nov/2017 15:54:11] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 15:54:11] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 15:54:12] "GET /credit_rating_history/all/ HTTP/1.1" 200 13036
+[29/Nov/2017 15:54:14] "GET /download_file/user1_011641006.IB_20171129_155403.xls HTTP/1.1" 301 0
+[29/Nov/2017 15:54:14] "GET /download_file/user1_011641006.IB_20171129_155403.xls/ HTTP/1.1" 200 17920
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 16:06:22] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 16:20:10] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 16:29:01] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 16:29:10] "POST / HTTP/1.1" 302 0
+[29/Nov/2017 16:29:10] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 16:29:12] "GET /credit_rating_history/all/ HTTP/1.1" 200 13036
+[29/Nov/2017 16:29:15] "GET /download_file/user1_011641006.IB_20171129_155403.xls HTTP/1.1" 301 0
+[29/Nov/2017 16:29:15] "GET /download_file/user1_011641006.IB_20171129_155403.xls/ HTTP/1.1" 200 17920
+[29/Nov/2017 16:29:19] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 16:29:19] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 16:29:20] "GET /credit_rating HTTP/1.1" 301 0
+[29/Nov/2017 16:29:20] "GET /credit_rating/ HTTP/1.1" 200 3519
+[29/Nov/2017 16:29:40] "POST /credit_rating/ HTTP/1.1" 200 5344
+[29/Nov/2017 16:29:51] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 16:29:51] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 16:29:52] "GET /credit_rating_result/all/ HTTP/1.1" 200 5853
+[29/Nov/2017 16:29:53] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 16:29:53] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 16:29:54] "GET /credit_rating_history/all/ HTTP/1.1" 200 15306
+[29/Nov/2017 16:29:57] "GET /credit_rating_history/all HTTP/1.1" 301 0
+[29/Nov/2017 16:29:57] "GET /credit_rating_history/all/ HTTP/1.1" 200 15306
+[29/Nov/2017 16:29:58] "GET /home HTTP/1.1" 301 0
+[29/Nov/2017 16:29:58] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 16:29:59] "GET /credit_rating_result/all/ HTTP/1.1" 200 5853
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 17:02:55] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:02:58] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:03:00] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 17:35:21] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:35:26] "POST / HTTP/1.1" 302 0
+[29/Nov/2017 17:35:26] "GET /home/ HTTP/1.1" 200 782
+[29/Nov/2017 17:35:29] "GET /logout HTTP/1.1" 301 0
+[29/Nov/2017 17:35:29] "GET /logout/ HTTP/1.1" 302 0
+[29/Nov/2017 17:35:29] "GET /login/ HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 17:41:36] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[29/Nov/2017 17:42:59] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:44:07] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:44:08] "GET / HTTP/1.1" 200 1054
+[29/Nov/2017 17:44:09] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 14:12:43] "GET / HTTP/1.1" 200 1054
+[30/Nov/2017 14:12:49] "POST / HTTP/1.1" 302 0
+[30/Nov/2017 14:12:49] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 14:12:50] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 14:12:50] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 14:13:13] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 14:13:21] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:13:21] "GET /home/ HTTP/1.1" 200 782
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 14:19:49] "GET / HTTP/1.1" 200 1054
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 14:24:55] "POST /credit_rating/ HTTP/1.1" 200 5323
+[30/Nov/2017 14:25:05] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:25:05] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 14:25:06] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 14:25:06] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 14:25:25] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 14:25:30] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:25:30] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 14:29:35] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 14:29:36] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 14:29:55] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 14:29:58] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 14:29:58] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 14:29:59] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:29:59] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 14:30:00] "GET /credit_rating_history/all/ HTTP/1.1" 200 15306
+[30/Nov/2017 14:30:02] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:30:02] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 14:30:03] "GET /credit_rating_result/all/ HTTP/1.1" 200 5853
+[30/Nov/2017 14:30:05] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 14:30:05] "GET /home/ HTTP/1.1" 200 782
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 14:34:42] "POST /credit_rating/ HTTP/1.1" 200 5336
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:01:32] "GET /credit_rating_result/all/ HTTP/1.1" 200 5853
+[30/Nov/2017 15:01:33] "GET / HTTP/1.1" 200 1054
+[30/Nov/2017 15:01:35] "POST / HTTP/1.1" 302 0
+[30/Nov/2017 15:01:35] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:01:36] "GET /credit_rating_result/all/ HTTP/1.1" 200 5853
+[30/Nov/2017 15:01:39] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:01:39] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:01:43] "POST /credit_rating/ HTTP/1.1" 200 5336
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:03:33] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 15:04:35] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:04:35] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:04:36] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 15:04:36] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:04:59] "POST /credit_rating/ HTTP/1.1" 200 5336
+Performing system checks...
+
+November 30, 2017 - 15:03:25
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://10.20.12.7:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:08:19] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 15:08:19] "POST /credit_rating/ HTTP/1.1" 200 5322
+[30/Nov/2017 15:08:21] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:08:21] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:08:22] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 15:08:22] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:08:27] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:08:41] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 15:08:54] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:08:54] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:08:56] "POST /credit_rating/ HTTP/1.1" 200 5325
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:13:56] "POST /credit_rating/ HTTP/1.1" 200 5313
+Performing system checks...
+
+November 30, 2017 - 15:13:42
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://10.20.12.7:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+Performing system checks...
+
+November 30, 2017 - 15:16:05
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://10.20.12.7:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:17:15] "POST /credit_rating/ HTTP/1.1" 200 5313
+[30/Nov/2017 15:17:37] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:17:37] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:17:38] "GET /credit_rating_history/all/ HTTP/1.1" 200 17578
+[30/Nov/2017 15:17:40] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:17:40] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:17:40] "GET /credit_rating_result/all/ HTTP/1.1" 200 6675
+[30/Nov/2017 15:17:50] "GET /credit_rating_detail/6 HTTP/1.1" 301 0
+[30/Nov/2017 15:17:51] "GET /credit_rating_detail/6/ HTTP/1.1" 200 4753
+[30/Nov/2017 15:17:58] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:17:58] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:18:01] "GET /credit_rating_result/all/ HTTP/1.1" 200 6675
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:30:01] "POST /credit_rating/ HTTP/1.1" 200 5336
+[30/Nov/2017 15:30:09] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:30:09] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:30:10] "GET /credit_rating_result/all/ HTTP/1.1" 200 9123
+[30/Nov/2017 15:30:15] "GET /credit_rating_detail/9 HTTP/1.1" 301 0
+[30/Nov/2017 15:30:15] "GET /credit_rating_detail/9/ HTTP/1.1" 200 4749
+[30/Nov/2017 15:30:19] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:30:19] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:30:20] "GET /credit_rating_history/all/ HTTP/1.1" 200 24376
+[30/Nov/2017 15:30:23] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:30:24] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:30:24] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 15:30:24] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:30:43] "POST /credit_rating/ HTTP/1.1" 200 5336
+Performing system checks...
+
+November 30, 2017 - 15:29:49
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://10.20.12.7:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 15:45:51] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:45:52] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:45:53] "GET /credit_rating_history/all/ HTTP/1.1" 200 24376
+[30/Nov/2017 15:45:53] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:45:54] "GET /credit_rating_result/all/ HTTP/1.1" 200 9123
+[30/Nov/2017 15:45:57] "GET /credit_rating_detail/9 HTTP/1.1" 301 0
+[30/Nov/2017 15:45:57] "GET /credit_rating_detail/9/ HTTP/1.1" 200 4749
+[30/Nov/2017 15:45:58] "GET /credit_rating_result/all/ HTTP/1.1" 200 9123
+[30/Nov/2017 15:45:59] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:00] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 15:46:00] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:46:27] "POST /credit_rating/ HTTP/1.1" 200 5313
+[30/Nov/2017 15:46:34] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:46:34] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:35] "GET /credit_rating_history/all/ HTTP/1.1" 200 26640
+[30/Nov/2017 15:46:38] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:46:38] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:39] "GET /credit_rating_result/all/ HTTP/1.1" 200 9939
+[30/Nov/2017 15:46:45] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:46:45] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:46] "GET /credit_rating_history/all/ HTTP/1.1" 200 26640
+[30/Nov/2017 15:46:48] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:46:49] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:49] "GET /credit_rating_result/all/ HTTP/1.1" 200 9939
+[30/Nov/2017 15:46:53] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:46:53] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:46:54] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 15:46:54] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 15:47:16] "POST /credit_rating/ HTTP/1.1" 200 5311
+[30/Nov/2017 15:47:32] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:47:32] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:47:33] "GET /credit_rating_history/all/ HTTP/1.1" 200 28910
+[30/Nov/2017 15:47:38] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:47:38] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:47:40] "GET /credit_rating_result/all/ HTTP/1.1" 200 10761
+[30/Nov/2017 15:55:55] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 15:55:55] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:57:25] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:57:27] "GET /logout HTTP/1.1" 301 0
+[30/Nov/2017 15:57:27] "GET /logout/ HTTP/1.1" 302 0
+[30/Nov/2017 15:57:27] "GET /login/ HTTP/1.1" 200 1054
+[30/Nov/2017 15:57:28] "POST /login/ HTTP/1.1" 302 0
+[30/Nov/2017 15:57:28] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:57:30] "GET /credit_rating_history/all/ HTTP/1.1" 200 1019
+[30/Nov/2017 15:57:31] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 15:57:31] "GET /credit_rating_result/all/ HTTP/1.1" 200 10761
+[30/Nov/2017 16:00:11] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:00:12] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 16:00:12] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 16:00:32] "POST /credit_rating/ HTTP/1.1" 200 5308
+[30/Nov/2017 16:00:35] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:00:35] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:00:36] "GET /credit_rating_history/all/ HTTP/1.1" 200 31174
+[30/Nov/2017 16:02:07] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:02:07] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:03:22] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:03:23] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 16:03:23] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 16:03:42] "POST /credit_rating/ HTTP/1.1" 200 5308
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 16:07:53] "POST /credit_rating/ HTTP/1.1" 200 5311
+[30/Nov/2017 16:07:56] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:07:56] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:07:57] "GET /credit_rating_history/all/ HTTP/1.1" 200 35707
+[30/Nov/2017 16:07:58] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:07:58] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:07:59] "GET /credit_rating_result/all/ HTTP/1.1" 200 13214
+[30/Nov/2017 16:09:59] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:09:59] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:09:59] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 16:10:00] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 16:10:17] "POST /credit_rating/ HTTP/1.1" 200 5310
+[30/Nov/2017 16:10:22] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 16:10:22] "GET /credit_rating/ HTTP/1.1" 200 3519
+[30/Nov/2017 16:10:23] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:10:23] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:10:24] "GET /credit_rating_history/all/ HTTP/1.1" 200 37977
+[30/Nov/2017 16:10:27] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:10:27] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:10:28] "GET /credit_rating_result/all/ HTTP/1.1" 200 14037
+[30/Nov/2017 16:10:33] "GET /delete_result/1/011641006.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:33] "GET /delete_result/1/011641006.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:33] "GET /credit_rating_result/all/ HTTP/1.1" 200 13218
+[30/Nov/2017 16:10:34] "GET /delete_result/2/031780001.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:34] "GET /delete_result/2/031780001.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:34] "GET /credit_rating_result/all/ HTTP/1.1" 200 12397
+[30/Nov/2017 16:10:35] "GET /delete_result/3/031780001.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:35] "GET /delete_result/3/031780001.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:35] "GET /credit_rating_result/all/ HTTP/1.1" 200 11575
+[30/Nov/2017 16:10:38] "GET /delete_result/4/011641006.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:38] "GET /delete_result/4/011641006.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:38] "GET /credit_rating_result/all/ HTTP/1.1" 200 10755
+[30/Nov/2017 16:10:39] "GET /delete_result/5/011641006.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:39] "GET /delete_result/5/011641006.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:39] "GET /credit_rating_result/all/ HTTP/1.1" 200 9935
+[30/Nov/2017 16:10:40] "GET /delete_result/6/011641006.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:40] "GET /delete_result/6/011641006.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:40] "GET /credit_rating_result/all/ HTTP/1.1" 200 9113
+[30/Nov/2017 16:10:41] "GET /delete_result/7/011641006.IB HTTP/1.1" 301 0
+[30/Nov/2017 16:10:41] "GET /delete_result/7/011641006.IB/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:41] "GET /credit_rating_result/all/ HTTP/1.1" 200 8293
+[30/Nov/2017 16:10:43] "GET /delete_result/8/145642.SH HTTP/1.1" 301 0
+[30/Nov/2017 16:10:43] "GET /delete_result/8/145642.SH/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:43] "GET /credit_rating_result/all/ HTTP/1.1" 200 7479
+[30/Nov/2017 16:10:44] "GET /delete_result/9/145642.SH HTTP/1.1" 301 0
+[30/Nov/2017 16:10:44] "GET /delete_result/9/145642.SH/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:44] "GET /credit_rating_result/all/ HTTP/1.1" 200 6665
+[30/Nov/2017 16:10:45] "GET /delete_result/10/145642.SH HTTP/1.1" 301 0
+[30/Nov/2017 16:10:45] "GET /delete_result/10/145642.SH/ HTTP/1.1" 302 0
+[30/Nov/2017 16:10:45] "GET /credit_rating_result/all/ HTTP/1.1" 200 5849
+[30/Nov/2017 16:10:53] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:10:53] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:10:54] "GET /credit_rating_history/all/ HTTP/1.1" 200 15293
+[30/Nov/2017 16:10:57] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:10:57] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:11:22] "GET /credit_rating_result/all/ HTTP/1.1" 200 5849
+[30/Nov/2017 16:11:55] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:11:55] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:11:56] "GET /credit_rating_history/all/ HTTP/1.1" 200 15293
+[30/Nov/2017 16:11:59] "GET /download_file/user1_031780001.IB_20171130_161017.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:11:59] "GET /download_file/user1_031780001.IB_20171130_161017.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:01] "GET /download_file/user1_011641006.IB_20171130_160752.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:01] "GET /download_file/user1_011641006.IB_20171130_160752.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:02] "GET /download_file/user1_145642.SH_20171130_160342.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:02] "GET /download_file/user1_145642.SH_20171130_160342.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:03] "GET /download_file/user1_145642.SH_20171130_160342.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:04] "GET /download_file/user1_145642.SH_20171130_160342.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:05] "GET /download_file/user1_145642.SH_20171130_160342.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:05] "GET /download_file/user1_145642.SH_20171130_160342.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:05] "GET /download_file/user1_145642.SH_20171130_160342.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:06] "GET /download_file/user1_145642.SH_20171130_160342.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:11] "GET /download_file/user1_145642.SH_20171130_160032.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:11] "GET /download_file/user1_145642.SH_20171130_160032.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:13] "GET /download_file/user1_011641006.IB_20171130_154716.xls HTTP/1.1" 301 0
+[30/Nov/2017 16:12:13] "GET /download_file/user1_011641006.IB_20171130_154716.xls/ HTTP/1.1" 200 17920
+[30/Nov/2017 16:12:16] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:12:16] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:12:17] "GET /credit_rating HTTP/1.1" 301 0
+[30/Nov/2017 16:12:17] "GET /credit_rating/ HTTP/1.1" 200 3519
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[30/Nov/2017 16:15:38] "POST /credit_rating/ HTTP/1.1" 200 5313
+[30/Nov/2017 16:15:42] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:15:42] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:15:44] "GET /credit_rating_history/all/ HTTP/1.1" 200 17557
+[30/Nov/2017 16:15:46] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:15:46] "GET /home/ HTTP/1.1" 200 782
+[30/Nov/2017 16:15:47] "GET /credit_rating_result/all/ HTTP/1.1" 200 6665
+[30/Nov/2017 16:16:06] "GET /home HTTP/1.1" 301 0
+[30/Nov/2017 16:16:06] "GET /home/ HTTP/1.1" 200 782
+[01/Dec/2017 08:57:30] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:30] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:36] "POST / HTTP/1.1" 302 0
+[01/Dec/2017 08:57:36] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:36] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:38] "GET /credit_rating_history/all/ HTTP/1.1" 200 17557
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:38] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:39] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:39] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:40] "GET /credit_rating_result/all/ HTTP/1.1" 200 6665
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:40] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:43] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:57:43] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:43] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:57:44] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 08:57:44] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 08:57:44] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:13] "POST /credit_rating/ HTTP/1.1" 200 5313
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:14] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:22] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:58:22] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:22] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:23] "GET /credit_rating_result/all/ HTTP/1.1" 200 7481
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:23] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:24] "GET /credit_rating_detail/17 HTTP/1.1" 301 0
+[01/Dec/2017 08:58:24] "GET /credit_rating_detail/17/ HTTP/1.1" 200 4754
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:24] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:28] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:58:28] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:28] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:29] "GET /credit_rating_history/all/ HTTP/1.1" 200 19821
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:29] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:34] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:58:34] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:34] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:35] "GET /credit_rating_result/all/ HTTP/1.1" 200 7481
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:35] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:38] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:58:39] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:39] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:40] "GET /credit_rating_history/all/ HTTP/1.1" 200 19821
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:40] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:49] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:58:49] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:49] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:58:50] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 08:58:50] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 08:58:50] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:59:57] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 08:59:57] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 08:59:57] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 08:59:58] "GET /credit_rating_result/all/ HTTP/1.1" 200 7481
+Not Found: /favicon.ico
+[01/Dec/2017 08:59:58] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:00:41] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:00:41] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:00:41] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:00:42] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 09:00:42] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 09:00:42] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:01:07] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[01/Dec/2017 09:01:07] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:01:14] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:01:14] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:01:14] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:01:15] "GET /credit_rating_result/all/ HTTP/1.1" 200 8303
+Not Found: /favicon.ico
+[01/Dec/2017 09:01:15] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:01:34] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:01:34] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:01:34] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:01:35] "GET /credit_rating_history/all/ HTTP/1.1" 200 22091
+Not Found: /favicon.ico
+[01/Dec/2017 09:01:35] "GET /favicon.ico HTTP/1.1" 404 3133
+Performing system checks...
+
+November 30, 2017 - 16:15:26
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://10.20.12.7:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 09:10:21] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:10:21] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:10:21] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:10:22] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 09:10:22] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 09:10:22] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:10:45] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[01/Dec/2017 09:10:45] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:10:54] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:10:54] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:10:54] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:10:55] "GET /credit_rating_result/all/ HTTP/1.1" 200 9123
+Not Found: /favicon.ico
+[01/Dec/2017 09:10:55] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:11:02] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:11:02] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:11:03] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:11:04] "GET /credit_rating_history/all/ HTTP/1.1" 200 24359
+Not Found: /favicon.ico
+[01/Dec/2017 09:11:04] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:11:09] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:11:09] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:11:09] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:11:11] "GET /credit_rating_result/all/ HTTP/1.1" 200 9123
+Not Found: /favicon.ico
+[01/Dec/2017 09:11:11] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:19] "GET /delete_result/11/011641006.IB HTTP/1.1" 301 0
+[01/Dec/2017 09:12:19] "GET /delete_result/11/011641006.IB/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:19] "GET /credit_rating_result/all/ HTTP/1.1" 200 8301
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:19] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:21] "GET /delete_result/12/145642.SH HTTP/1.1" 301 0
+[01/Dec/2017 09:12:21] "GET /delete_result/12/145642.SH/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:21] "GET /credit_rating_result/all/ HTTP/1.1" 200 7485
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:21] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:23] "GET /delete_result/13/145642.SH HTTP/1.1" 301 0
+[01/Dec/2017 09:12:23] "GET /delete_result/13/145642.SH/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:23] "GET /credit_rating_result/all/ HTTP/1.1" 200 6669
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:23] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:25] "GET /delete_result/14/011641006.IB HTTP/1.1" 301 0
+[01/Dec/2017 09:12:25] "GET /delete_result/14/011641006.IB/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:25] "GET /credit_rating_result/all/ HTTP/1.1" 200 5848
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:25] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:26] "GET /delete_result/15/031780001.IB HTTP/1.1" 301 0
+[01/Dec/2017 09:12:26] "GET /delete_result/15/031780001.IB/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:27] "GET /credit_rating_result/all/ HTTP/1.1" 200 5025
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:27] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:28] "GET /delete_result/16/145642.SH HTTP/1.1" 301 0
+[01/Dec/2017 09:12:28] "GET /delete_result/16/145642.SH/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:28] "GET /credit_rating_result/all/ HTTP/1.1" 200 4209
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:28] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:30] "GET /delete_result/17/145642.SH HTTP/1.1" 301 0
+[01/Dec/2017 09:12:30] "GET /delete_result/17/145642.SH/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:30] "GET /credit_rating_result/all/ HTTP/1.1" 200 3393
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:30] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:32] "GET /delete_result/18/011641006.IB HTTP/1.1" 301 0
+[01/Dec/2017 09:12:32] "GET /delete_result/18/011641006.IB/ HTTP/1.1" 302 0
+[01/Dec/2017 09:12:32] "GET /credit_rating_result/all/ HTTP/1.1" 200 2571
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:32] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:12:59] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:12:59] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:12:59] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:00] "GET /credit_rating_history/all/ HTTP/1.1" 200 6224
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:00] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:03] "GET /download_file/user1_011641006.IB_20171201_091045.xls HTTP/1.1" 301 0
+[01/Dec/2017 09:13:03] "GET /download_file/user1_011641006.IB_20171201_091045.xls/ HTTP/1.1" 200 17920
+[01/Dec/2017 09:13:07] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:13:07] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:07] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:08] "GET /credit_rating_result/all/ HTTP/1.1" 200 2571
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:08] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:09] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:13:09] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:09] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:10] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 09:13:10] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:10] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:28] "POST /credit_rating/ HTTP/1.1" 200 5310
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:28] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:32] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:13:32] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:32] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:35] "GET /credit_rating_history/all/ HTTP/1.1" 200 8493
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:35] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:42] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 09:13:42] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:42] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:43] "GET /credit_rating_result/all/ HTTP/1.1" 200 3393
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:43] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 09:13:45] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 09:13:45] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+Performing system checks...
+
+December 01, 2017 - 16:40:23
+Django version 1.11.7, using settings 'HuaJingAM.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:40:54] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[01/Dec/2017 16:40:54] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:00] "POST / HTTP/1.1" 302 0
+[01/Dec/2017 16:41:00] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:00] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:01] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:41:01] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:01] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:26] "POST /credit_rating/ HTTP/1.1" 200 5308
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:26] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:35] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:41:35] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:35] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:36] "GET /credit_rating_result/all/ HTTP/1.1" 200 4208
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:36] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:41:38] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:41:38] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:41:38] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:42:51] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:42:51] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:42:52] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:42:52] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:42:52] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:43:16] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[01/Dec/2017 16:43:16] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:43:45] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:43:45] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:43:45] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:43:46] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:43:46] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:43:46] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:44:08] "POST /credit_rating/ HTTP/1.1" 200 5310
+Not Found: /favicon.ico
+[01/Dec/2017 16:44:08] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:12] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:50:13] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:13] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:13] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:50:14] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:14] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:15] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:50:15] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:15] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:16] "GET /credit_rating_history/all/ HTTP/1.1" 200 15295
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:16] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:16] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:16] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:50:17] "GET /credit_rating_result/all/ HTTP/1.1" 200 5852
+Not Found: /favicon.ico
+[01/Dec/2017 16:50:17] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:54:11] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:54:11] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:54:12] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:54:13] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:54:13] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:54:13] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:54:39] "POST /credit_rating/ HTTP/1.1" 200 5313
+Not Found: /favicon.ico
+[01/Dec/2017 16:54:39] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:56:49] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:56:49] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:56:49] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:56:50] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:56:50] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:56:50] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:57:19] "POST /credit_rating/ HTTP/1.1" 200 5313
+Not Found: /favicon.ico
+[01/Dec/2017 16:57:19] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:57:22] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:57:22] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:57:22] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:58:14] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:58:14] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:58:14] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:58:36] "POST /credit_rating/ HTTP/1.1" 200 5310
+Not Found: /favicon.ico
+[01/Dec/2017 16:58:36] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:58:39] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:58:39] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:58:39] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:58:53] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:58:54] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:58:54] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:59:19] "POST /credit_rating/ HTTP/1.1" 200 5313
+Not Found: /favicon.ico
+[01/Dec/2017 16:59:19] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:59:25] "GET /home HTTP/1.1" 301 0
+[01/Dec/2017 16:59:25] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 16:59:25] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 16:59:35] "GET /credit_rating HTTP/1.1" 301 0
+[01/Dec/2017 16:59:35] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[01/Dec/2017 16:59:36] "GET /favicon.ico HTTP/1.1" 404 3133
+[01/Dec/2017 16:59:57] "POST /credit_rating/ HTTP/1.1" 200 5315
+Not Found: /favicon.ico
+[01/Dec/2017 16:59:57] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[01/Dec/2017 17:37:27] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[01/Dec/2017 17:37:27] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 14:51:02] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[04/Dec/2017 14:51:02] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 15:09:47] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[04/Dec/2017 15:09:47] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:09:53] "POST / HTTP/1.1" 302 0
+[04/Dec/2017 15:09:53] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 15:09:53] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:09:54] "GET /credit_rating HTTP/1.1" 301 0
+[04/Dec/2017 15:09:54] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[04/Dec/2017 15:09:54] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:01] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 15:11:01] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:01] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:02] "GET /credit_rating_history/all/ HTTP/1.1" 200 28891
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:02] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:10] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 15:11:10] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:10] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:10] "GET /credit_rating HTTP/1.1" 301 0
+[04/Dec/2017 15:11:10] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:10] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:38] "POST /credit_rating/ HTTP/1.1" 200 5313
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:38] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:55] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 15:11:55] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:55] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:56] "GET /credit_rating_history/all/ HTTP/1.1" 200 31154
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:56] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:58] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 15:11:58] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:58] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:11:58] "GET /credit_rating_result/all/ HTTP/1.1" 200 11577
+Not Found: /favicon.ico
+[04/Dec/2017 15:11:58] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 15:24:47] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[04/Dec/2017 15:24:47] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 15:25:10] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[04/Dec/2017 15:25:10] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 15:26:34] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[04/Dec/2017 15:26:34] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 15:29:45] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[04/Dec/2017 15:29:45] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 15:30:28] "POST /credit_rating/ HTTP/1.1" 200 5316
+Not Found: /favicon.ico
+[04/Dec/2017 15:30:28] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:19:54] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[04/Dec/2017 16:19:54] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:01] "POST / HTTP/1.1" 302 0
+[04/Dec/2017 16:20:01] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:01] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:02] "GET /credit_rating HTTP/1.1" 301 0
+[04/Dec/2017 16:20:02] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:02] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:05] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 16:20:05] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:05] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:06] "GET /credit_rating_history/all/ HTTP/1.1" 200 42499
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:06] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:11] "GET /home HTTP/1.1" 301 0
+[04/Dec/2017 16:20:11] "GET /home/ HTTP/1.1" 200 782
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:11] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:12] "GET /credit_rating HTTP/1.1" 301 0
+[04/Dec/2017 16:20:12] "GET /credit_rating/ HTTP/1.1" 200 3519
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:12] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:20:33] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:20:33] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 16:23:21] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:23:21] "GET /favicon.ico HTTP/1.1" 404 3133
+[04/Dec/2017 16:25:58] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:25:58] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 16:48:05] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:48:05] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 16:53:18] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:53:19] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 16:53:56] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 16:53:56] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 17:00:48] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 17:00:48] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 17:01:08] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 17:01:08] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 17:01:29] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 17:01:29] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 17:16:55] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 17:16:55] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 2 issues (0 silenced).
+[04/Dec/2017 17:22:53] "POST /credit_rating/ HTTP/1.1" 200 5312
+Not Found: /favicon.ico
+[04/Dec/2017 17:22:53] "GET /favicon.ico HTTP/1.1" 404 3133
+System check identified some issues:
+
+WARNINGS:
+account.CRRecord_Bond1.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRRecord_Bond2.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRRecord_Bond3.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+account.CRResult.create_time: (fields.W161) Fixed default value provided.
+	HINT: It seems you set a fixed date / time / datetime value as default for this field. This may not be what you want. If you want to have the current date as default, use `django.utils.timezone.now`
+
+System check identified 4 issues (0 silenced).
+[14/Dec/2017 11:16:14] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:14] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:20] "POST / HTTP/1.1" 302 0
+[14/Dec/2017 11:16:20] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:20] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:21] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:21] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:21] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:22] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:22] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:22] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:22] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:23] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:23] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:23] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:23] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:23] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:24] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:24] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:24] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:24] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:24] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:24] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:24] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:16:25] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:25] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:25] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 1399
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:25] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:27] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:27] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:28] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 1400
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:28] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:29] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:29] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:16:30] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:16:30] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:16:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:10] "POST /credit_rating/bond1/ HTTP/1.1" 302 0
+[14/Dec/2017 11:17:10] "GET /credit_rating_detail/6 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:10] "GET /credit_rating_detail/6/ HTTP/1.1" 200 5148
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:10] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:16] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:16] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:17] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:17:17] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:17] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:18] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:18] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:19] "GET /credit_rating_detail/6 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:19] "GET /credit_rating_detail/6/ HTTP/1.1" 200 5161
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:19] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:21] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:21] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:25] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:17:25] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:25] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:26] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:26] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:28] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:17:28] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:28] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:29] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 3306
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:29] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:29] "GET /credit_rating_detail/6 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:30] "GET /credit_rating_detail/6/ HTTP/1.1" 200 5162
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:31] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 3306
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:32] "GET /download_file/6 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:32] "GET /download_file/6/ HTTP/1.1" 200 17920
+[14/Dec/2017 11:17:36] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:17:36] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:36] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:37] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:37] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:37] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:17:38] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[14/Dec/2017 11:17:38] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:17:38] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:14] "POST /credit_rating/bond2/ HTTP/1.1" 302 0
+[14/Dec/2017 11:18:14] "GET /credit_rating_detail/7 HTTP/1.1" 301 0
+[14/Dec/2017 11:18:14] "GET /credit_rating_detail/7/ HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:14] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:22] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:22] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:24] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:18:24] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:24] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:25] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 4269
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:25] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:26] "GET /credit_rating_detail/7 HTTP/1.1" 301 0
+[14/Dec/2017 11:18:27] "GET /credit_rating_detail/7/ HTTP/1.1" 200 3941
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:27] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:28] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 4269
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:28] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:29] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:18:30] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:30] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4150
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:31] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:33] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:18:33] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:33] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:18:34] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[14/Dec/2017 11:18:34] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+Not Found: /favicon.ico
+[14/Dec/2017 11:18:34] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:03] "POST /credit_rating/bond3/ HTTP/1.1" 302 0
+[14/Dec/2017 11:19:03] "GET /credit_rating_detail/8 HTTP/1.1" 301 0
+[14/Dec/2017 11:19:03] "GET /credit_rating_detail/8/ HTTP/1.1" 200 5126
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:03] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:07] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:07] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:09] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:19:09] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:09] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:10] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5173
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:10] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:11] "GET /credit_rating_detail/8 HTTP/1.1" 301 0
+[14/Dec/2017 11:19:11] "GET /credit_rating_detail/8/ HTTP/1.1" 200 5139
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:11] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:13] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5173
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:13] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:15] "GET /delete_result/8/ HTTP/1.1" 302 0
+[14/Dec/2017 11:19:15] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 4269
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:15] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:19] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:19:19] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:19] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:20] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4150
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:20] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:21] "GET /download_file/7 HTTP/1.1" 301 0
+[14/Dec/2017 11:19:21] "GET /download_file/7/ HTTP/1.1" 200 9728
+[14/Dec/2017 11:19:23] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:19:23] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:23] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:24] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 4269
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:24] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:26] "GET /delete_result/7/ HTTP/1.1" 302 0
+[14/Dec/2017 11:19:26] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:26] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:28] "GET /delete_result/6/ HTTP/1.1" 302 0
+[14/Dec/2017 11:19:28] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 1399
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:28] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:29] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:19:29] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:30] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 1400
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:30] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:31] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:31] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 1399
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:32] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:32] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:33] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:19:33] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:33] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:19:33] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:19:33] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:06] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:20:06] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:06] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:32] "POST /credit_rating/bond1/ HTTP/1.1" 302 0
+[14/Dec/2017 11:20:32] "GET /credit_rating_detail/9 HTTP/1.1" 301 0
+[14/Dec/2017 11:20:32] "GET /credit_rating_detail/9/ HTTP/1.1" 200 5148
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:32] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:33] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:20:33] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:33] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:34] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:34] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:35] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:35] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:36] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:20:36] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:36] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:20:43] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[14/Dec/2017 11:20:43] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:20:43] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:11] "POST /credit_rating/bond2/ HTTP/1.1" 302 0
+[14/Dec/2017 11:21:11] "GET /credit_rating_detail/10 HTTP/1.1" 301 0
+[14/Dec/2017 11:21:11] "GET /credit_rating_detail/10/ HTTP/1.1" 200 3928
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:11] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:14] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:14] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:15] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[14/Dec/2017 11:21:15] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:15] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:47] "POST /credit_rating/bond3/ HTTP/1.1" 302 0
+[14/Dec/2017 11:21:47] "GET /credit_rating_detail/11 HTTP/1.1" 301 0
+[14/Dec/2017 11:21:47] "GET /credit_rating_detail/11/ HTTP/1.1" 200 5126
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:47] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:52] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:21:52] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:52] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:53] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:53] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:54] "GET /credit_rating_detail/11 HTTP/1.1" 301 0
+[14/Dec/2017 11:21:55] "GET /credit_rating_detail/11/ HTTP/1.1" 200 5139
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:55] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:56] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:56] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:57] "GET /credit_rating_detail/10 HTTP/1.1" 301 0
+[14/Dec/2017 11:21:57] "GET /credit_rating_detail/10/ HTTP/1.1" 200 3941
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:57] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:21:58] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 11:21:58] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:01] "POST /credit_rating_result/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:01] "GET /credit_rating_result/125787/all/all/ HTTP/1.1" 200 3363
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:01] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:04] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:04] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:09] "POST /credit_rating_result/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:09] "GET /credit_rating_result/all/%E9%A6%96%E5%BC%80/all/ HTTP/1.1" 200 3363
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:09] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:11] "GET /credit_rating_detail/11 HTTP/1.1" 301 0
+[14/Dec/2017 11:22:11] "GET /credit_rating_detail/11/ HTTP/1.1" 200 5154
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:11] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:12] "GET /credit_rating_result/all/%E9%A6%96%E5%BC%80/all/ HTTP/1.1" 200 3363
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:12] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:14] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:14] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:17] "POST /credit_rating_result/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:18] "GET /credit_rating_result/all/all/%E4%B8%80%E8%88%AC%E5%80%BA%E9%A1%B9/ HTTP/1.1" 200 3365
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:18] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:19] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:22:19] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:19] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:20] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4998
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:20] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:24] "POST /credit_rating_history/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:24] "GET /credit_rating_history/125787/all/all/ HTTP/1.1" 200 3304
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:24] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:26] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4998
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:26] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:31] "POST /credit_rating_history/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:31] "GET /credit_rating_history/all/%E6%B4%A5%E6%8A%95/all/ HTTP/1.1" 200 3304
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:33] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4998
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:33] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:37] "POST /credit_rating_history/all/all/all/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:37] "GET /credit_rating_history/all/all/%E4%B8%80%E8%88%AC%E5%80%BA%E9%A1%B9/ HTTP/1.1" 200 3306
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:37] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:39] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 11:22:39] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:39] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:22:41] "GET /logout HTTP/1.1" 301 0
+[14/Dec/2017 11:22:41] "GET /logout/ HTTP/1.1" 302 0
+[14/Dec/2017 11:22:41] "GET /login/ HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 11:22:41] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:31:41] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 11:31:41] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 11:31:44] "POST / HTTP/1.1" 302 0
+[14/Dec/2017 11:31:44] "GET /home/ HTTP/1.1" 200 834
+[14/Dec/2017 11:31:46] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 11:31:46] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[14/Dec/2017 11:31:49] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[14/Dec/2017 11:31:49] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+[14/Dec/2017 11:31:50] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[14/Dec/2017 11:31:51] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[14/Dec/2017 11:31:51] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+[14/Dec/2017 11:31:53] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+[14/Dec/2017 11:31:54] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[14/Dec/2017 13:08:38] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 13:08:39] "GET /home/ HTTP/1.1" 200 834
+[14/Dec/2017 13:08:59] "GET /home/ HTTP/1.1" 302 0
+[14/Dec/2017 13:08:59] "GET /login/?next=/home/ HTTP/1.1" 200 1054
+[14/Dec/2017 13:10:10] "GET /home/ HTTP/1.1" 302 0
+[14/Dec/2017 13:10:10] "GET /login/?next=/home/ HTTP/1.1" 200 1054
+[14/Dec/2017 13:10:31] "GET /home/ HTTP/1.1" 302 0
+[14/Dec/2017 13:10:31] "GET /login/?next=/home/ HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 13:10:31] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:15:56] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 17:15:56] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:04] "POST / HTTP/1.1" 302 0
+[14/Dec/2017 17:16:04] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:04] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:06] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[14/Dec/2017 17:16:06] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:06] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:07] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:07] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:08] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:08] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:13] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:14] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:14] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4998
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:15] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:16] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:16] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:17] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 4998
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:17] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:18] "GET /download_file/11 HTTP/1.1" 301 0
+[14/Dec/2017 17:16:18] "GET /download_file/11/ HTTP/1.1" 200 17920
+[14/Dec/2017 17:16:20] "GET /download_file/10 HTTP/1.1" 301 0
+[14/Dec/2017 17:16:20] "GET /download_file/10/ HTTP/1.1" 200 9728
+[14/Dec/2017 17:16:24] "GET /download_file/9 HTTP/1.1" 301 0
+[14/Dec/2017 17:16:24] "GET /download_file/9/ HTTP/1.1" 200 17920
+[14/Dec/2017 17:16:26] "GET /home HTTP/1.1" 301 0
+[14/Dec/2017 17:16:26] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:26] "GET /favicon.ico HTTP/1.1" 404 3155
+[14/Dec/2017 17:16:28] "GET /logout HTTP/1.1" 301 0
+[14/Dec/2017 17:16:28] "GET /logout/ HTTP/1.1" 302 0
+[14/Dec/2017 17:16:28] "GET /login/ HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[14/Dec/2017 17:16:28] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 10:51:14] "GET /logout HTTP/1.1" 301 0
+[15/Dec/2017 10:51:15] "GET /logout/ HTTP/1.1" 302 0
+[15/Dec/2017 10:51:15] "GET /login/ HTTP/1.1" 200 1054
+[15/Dec/2017 10:52:11] "POST /login/ HTTP/1.1" 302 0
+[15/Dec/2017 10:52:11] "GET /home/ HTTP/1.1" 200 834
+[15/Dec/2017 10:52:12] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[15/Dec/2017 10:53:06] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 10:53:06] "GET /home/ HTTP/1.1" 200 834
+[15/Dec/2017 10:53:10] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5177
+[15/Dec/2017 10:54:45] "GET /credit_rating_detail/11 HTTP/1.1" 301 0
+[15/Dec/2017 10:54:45] "GET /credit_rating_detail/11/ HTTP/1.1" 200 5139
+[15/Dec/2017 10:55:10] "POST /credit_rating_result/all/all/all/ HTTP/1.1" 302 0
+[15/Dec/2017 10:55:10] "GET /credit_rating_result/all/all/%E5%9F%8E%E6%8A%95%E5%80%BA/ HTTP/1.1" 200 3363
+[15/Dec/2017 10:55:13] "POST /credit_rating_result/all/all/%E5%9F%8E%E6%8A%95%E5%80%BA/ HTTP/1.1" 302 0
+[15/Dec/2017 10:55:13] "GET /credit_rating_result/all/all/%E4%B8%80%E8%88%AC%E5%80%BA%E9%A1%B9/ HTTP/1.1" 200 3365
+[15/Dec/2017 10:56:42] "GET /home/ HTTP/1.1" 200 834
+[15/Dec/2017 10:57:02] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[15/Dec/2017 10:57:06] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[15/Dec/2017 10:57:10] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[15/Dec/2017 10:57:15] "GET /credit_rating/bond2/ HTTP/1.1" 200 4070
+[15/Dec/2017 10:57:16] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[15/Dec/2017 10:57:16] "GET /credit_rating/bond3/ HTTP/1.1" 200 3776
+[15/Dec/2017 10:57:17] "GET /credit_rating/bond1/ HTTP/1.1" 200 3760
+[15/Dec/2017 12:30:16] "GET / HTTP/1.1" 200 1054
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:16] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:22] "POST / HTTP/1.1" 302 0
+[15/Dec/2017 12:30:22] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:22] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:23] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[15/Dec/2017 12:30:23] "GET /credit_rating/bond1/ HTTP/1.1" 200 4340
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:23] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:39] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[15/Dec/2017 12:30:39] "GET /credit_rating/bond2/ HTTP/1.1" 200 4645
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:39] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:44] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[15/Dec/2017 12:30:44] "GET /credit_rating/bond3/ HTTP/1.1" 200 4338
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:44] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:47] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[15/Dec/2017 12:30:47] "GET /credit_rating/bond2/ HTTP/1.1" 200 4645
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:47] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:48] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:30:48] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:48] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:49] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:49] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:51] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:30:51] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:52] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:52] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 5295
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:52] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:54] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:30:55] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:55] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:56] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:56] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:30:59] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:30:59] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:30:59] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:00] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:00] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:02] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:31:02] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:02] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:03] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 5295
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:03] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:06] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:31:06] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:06] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:09] "GET /credit_rating_history/all/all/all/ HTTP/1.1" 200 5295
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:09] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:13] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:31:13] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:13] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:31:17] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:31:17] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:33:52] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:33:52] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:33:54] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:33:54] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:33:54] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:33:55] "GET /credit_rating_result/all/all/all/ HTTP/1.1" 200 5474
+Not Found: /favicon.ico
+[15/Dec/2017 12:33:55] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:33:57] "GET /home HTTP/1.1" 301 0
+[15/Dec/2017 12:33:57] "GET /home/ HTTP/1.1" 200 834
+Not Found: /favicon.ico
+[15/Dec/2017 12:33:57] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:33:58] "GET /credit_rating/bond1 HTTP/1.1" 301 0
+[15/Dec/2017 12:33:58] "GET /credit_rating/bond1/ HTTP/1.1" 200 4340
+Not Found: /favicon.ico
+[15/Dec/2017 12:33:58] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:34:01] "GET /credit_rating/bond2 HTTP/1.1" 301 0
+[15/Dec/2017 12:34:01] "GET /credit_rating/bond2/ HTTP/1.1" 200 4645
+Not Found: /favicon.ico
+[15/Dec/2017 12:34:01] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 12:34:12] "GET /credit_rating/bond3 HTTP/1.1" 301 0
+[15/Dec/2017 12:34:13] "GET /credit_rating/bond3/ HTTP/1.1" 200 4338
+Not Found: /favicon.ico
+[15/Dec/2017 12:34:13] "GET /favicon.ico HTTP/1.1" 404 3155
+[15/Dec/2017 13:48:04] "GET /credit_rating/bond1/ HTTP/1.1" 200 4340

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>评级历史</title>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>
+                {{request.user}}&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% endif %}
+    </div>
+</head>
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+<body>
+    <h4>下述三种搜索方式任选其一</h4>
+    <form method='post'>
+        债券代码：<input type="text" name="bond_code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        债券名称：<input type="text" name="bond_name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {{ form.as_table }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="提交">&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="/credit_rating_history/all/all/all/">所有历史评级</a>
+    </form>
+
+    <div><h2>评级结果</h2></div>
+    {% if no_record %}
+        没有相关评级结果！
+    {% else %}
+
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        thead {
+            visibility: hidden;
+        }
+    </style>
+
+        <table border=0.01px align="center">
+            <tr>
+                <th width="120px">债券代码</th>
+                <th width="120px">债券名称</th>
+                <th width="200px">发行人</th>
+                <th width="120px">债券类型</th>
+
+                <th width="100px">评级人</th>
+                <th width="150px">评级时间</th>
+                <th width="120px">基于年报</th>
+                <th width="100px">内部得分-债项</th>
+                <th width="100px">内部评级-债项</th>
+                <th width="100px">内部得分-主体</th>
+                <th width="100px">内部评级-主体</th>
+                <th width="100px">外部最新评级-债项</th>
+                <th width="100px">外部最新评级-主体</th>
+                <th width="300px">操作</th>
+            </tr>
+
+            {% for res in rating_res %}
+            <tr>
+                <td width="120px">{{res.bond_code}}</td>
+                <td width="120px">{{res.bond_name}}</td>
+                <td width="200px">{{res.company_name}}</td>
+                <td width="120px">{{res.bond_type}}</td>
+
+                <td width="100px">{{res.user}}</td>
+                <td width="150px">
+                    {{res.create_time.year}}/{{res.create_time.month}}/{{res.create_time.day}} {{res.create_time.hour}}:{{res.create_time.minute}}
+                </td>
+                <td width="120px">{{res.base_year}}</td>
+                <td width="100px">{{res.internal_score_debt}}</td>
+                <td width="100px">{{res.internal_rating_debt}}</td>
+                <td width="100px">{{res.internal_score_company}}</td>
+                <td width="100px">{{res.internal_rating_company}}</td>
+                <td width="100px">{{res.external_rating_debt}}</td>
+                <td width="100px">{{res.external_rating_company}}</td>
+                <td width="300px">
+                        <a href="/credit_rating_detail/{{ res.id }}">查看详细记录</a>&nbsp;&nbsp;&nbsp;
+                        <a href="/download_file/{{ res.id }}">下载</a>
+                </td>
+            {% endfor %}
+            </tr>
+
+            </table>
+    {% endif %}
+</body>
+</html>

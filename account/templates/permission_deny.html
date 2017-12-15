@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>
+                {{request.user}}&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% endif %}
+    </div>
+</head>
+
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+
+<body>
+    <div style="color:#F00">
+        <h4>您没有当前操作的权限，请联系管理员授权！</h4>
+    </div>
+
+</body>
+</html>

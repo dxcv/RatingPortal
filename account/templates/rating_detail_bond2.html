@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>
+                {{request.user}}&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% endif %}
+    </div>
+</head>
+
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+<style>
+        table {
+               border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        thead {
+            visibility: hidden;
+        }
+</style>
+
+<body>
+    <div style="text-align:center;font-size:18px;">
+        <br/><b>评级信息：</b><br/>
+    </div>
+
+    <div>
+        <table border=0.1px align="center">
+            <tr> <td> 债券代码 </td> <td width="150px">{{ form.bond_code }}</td> </tr>
+            <tr> <td> 债券名称 </td> <td width="150px">{{ form.bond_name }}</td> </tr>
+            <tr> <td> 债券类型 </td> <td width="150px">{{ form.bond_type }}</td> </tr>
+            <tr> <td> 评级人 </td> <td width="150px">{{ form.user }}</td> </tr>
+            <tr> <td> 评级时间 </td> <td width="150px">
+                {{ form.create_time.year }}-{{ form.create_time.month }}-{{ form.create_time.day }} {{ form.create_time.hour }}:{{ form.create_time.minute}}
+            </td> </tr>
+            </table>
+    </div>
+
+    <div style="text-align:center;font-size:18px;">
+
+        <br/><b>评级结果：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>评级项目</th>
+                <th>评级结果</th>
+            </tr>
+
+            <tr> <td> 内部得分-债项 </td> <td>{{form.internal_score_debt}}</td> </tr>
+            <tr> <td> 内部评级-债项 </td> <td>{{form.internal_rating_debt}}</td> </tr>
+            <tr> <td> 内部得分-主体 </td> <td>{{form.internal_score_company}}</td> </tr>
+            <tr> <td> 内部评级-主体 </td> <td>{{form.internal_rating_company}}</td> </tr>
+            <tr> <td> 外部最新评级-债项 </td> <td>{{form.external_rating_debt}}</td> </tr>
+            <tr> <td> 外部最新评级-主体 </td> <td>{{form.external_rating_company}}</td> </tr>
+        </table>
+
+
+        <br/><b>手工因子：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>项目</th>
+                <th>因子值</th>
+                <th>备注</th>
+            </tr>
+
+            <tr> <td> 平台地位 </td> <td>{{form.platform_status}}</td> <td>{{form.platform_status_remarks}}</td> </tr>
+            <tr> <td> 主营业务属性 </td> <td>{{form.main_business}}</td>  <td>{{form.main_business_remarks}}</td></tr>
+            <tr> <td> 外部担保 </td> <td>{{form.external_warranty}}</td> <td>{{form.external_warranty_remarks}}</td> </tr>
+            <tr> <td> 资产抵押担保 </td> <td>{{form.asset_warranty}}</td>  <td>{{form.asset_warranty_remarks}}</td></tr>
+            <tr> <td> 政府性基金收入稳定性 </td> <td>{{form.gov_fund_stability}}</td>  <td>{{form.gov_fund_stability_remarks}}</td></tr>
+            <tr> <td> 手工调整因素 </td> <td>{{form.manual_adj}}</td>  <td>{{form.manual_adj_remarks}}</td></tr>
+            <tr> <td> 所属行政区GDP规模 </td> <td>{{form.GDP_amount}}</td>  <td>{{form.GDP_amount_remarks}}</td></tr>
+            <tr> <td> GDP增长率 </td> <td>{{form.GDP_growth}}</td>  <td>{{form.GDP_growth_remarks}}</td></tr>
+            <tr> <td> 公共财政收入规模 </td> <td>{{form.public_revenue}}</td> <td>{{form.public_revenue_remarks}}</td> </tr>
+            <tr> <td> 税收收入/公共财政收入 </td> <td>{{form.tax_to_revenue}}</td> <td>{{form.tax_to_revenue_remarks}}</td> </tr>
+        </table>
+
+        <br/><b>Wind数据计算的因子：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>项目</th>
+                <th>因子值</th>
+                <th></th>
+                <th>项目</th>
+                <th>因子值</th>
+            </tr>
+
+            <tr> <td> 总资产规模 </td> <td>{{form.total_asset}}</td> <td></td> <td> 净资产规模 </td> <td>{{form.net_asset}}</td> </tr>
+            <tr> <td> 净资产变化率 </td> <td>{{form.net_asset_chg}}</td> <td></td> <td> 营业收入 </td> <td>{{form.revenue}}</td> </tr>
+            <tr> <td> 净利润 </td> <td>{{form.net_profit}}</td> <td></td> <td> 营业利润 </td> <td>{{form.operating_profit}}</td> </tr>
+            <tr> <td> 有息负债率 </td> <td>{{form.debt_ratio_with_interest}}</td> <td></td> <td> 经营现金流/总债务 </td> <td>{{form.operating_cf_to_debt}}</td> </tr>
+        </table>
+
+
+    </div>
+
+    <div style="text-align:center;font-size:18px;">
+        <br/>
+            <a href={{ pre_url }}>返回前页</a>
+        <br/>
+    </div>
+</body>
+</html>

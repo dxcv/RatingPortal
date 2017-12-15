@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <div style= "font-size: 22px;">
+        {% if request.user.is_authenticated %}
+            <li>
+                {{request.user}}&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="/login">登录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/logout">注销</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="/home">返回首页</a>
+            </li>
+        {% endif %}
+    </div>
+</head>
+
+<style>
+        html,body{text-align:center;margin:0px auto;}
+</style>
+<style>
+        table {
+               border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        thead {
+            visibility: hidden;
+        }
+</style>
+
+<body>
+    <div style="text-align:center;font-size:18px;">
+        <br/><b>评级信息：</b><br/>
+    </div>
+
+    <div>
+        <table border=0.1px align="center">
+            <tr> <td> 债券代码 </td> <td width="150px">{{ form.bond_code }}</td> </tr>
+            <tr> <td> 债券名称 </td> <td width="150px">{{ form.bond_name }}</td> </tr>
+            <tr> <td> 债券类型 </td> <td width="150px">{{ form.bond_type }}</td> </tr>
+            <tr> <td> 评级人 </td> <td width="150px">{{ form.user }}</td> </tr>
+            <tr> <td> 评级时间 </td> <td width="150px">
+                {{ form.create_time.year }}-{{ form.create_time.month }}-{{ form.create_time.day }} {{ form.create_time.hour }}:{{ form.create_time.minute}}
+            </td> </tr>
+            </table>
+    </div>
+
+    <div style="text-align:center;font-size:18px;">
+
+        <br/><b>评级结果：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>评级项目</th>
+                <th>评级结果</th>
+            </tr>
+
+            <tr> <td> 内部得分-债项 </td> <td>{{form.internal_score_debt}}</td> </tr>
+            <tr> <td> 内部评级-债项 </td> <td>{{form.internal_rating_debt}}</td> </tr>
+            <tr> <td> 内部得分-主体 </td> <td>{{form.internal_score_company}}</td> </tr>
+            <tr> <td> 内部评级-主体 </td> <td>{{form.internal_rating_company}}</td> </tr>
+            <tr> <td> 外部最新评级-债项 </td> <td>{{form.external_rating_debt}}</td> </tr>
+            <tr> <td> 外部最新评级-主体 </td> <td>{{form.external_rating_company}}</td> </tr>
+        </table>
+
+
+        <br/><b>手工因子：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>项目</th>
+                <th>因子值</th>
+                <th>备注</th>
+            </tr>
+
+            <tr> <td> 企业性质 </td> <td>{{form.background}}</td> <td>{{form.background_remarks}}</td> </tr>
+            <tr> <td> 行业因素 </td> <td>{{form.industry}}</td>  <td>{{form.industry_remarks}}</td></tr>
+            <tr> <td> 外部担保 </td> <td>{{form.external_warranty}}</td> <td>{{form.external_warranty_remarks}}</td> </tr>
+            <tr> <td> 资产抵押担保 </td> <td>{{form.asset_warranty}}</td>  <td>{{form.asset_warranty_remarks}}</td></tr>
+            <tr> <td> 行业当前景气度 </td> <td>{{form.industry_boom}}</td>  <td>{{form.industry_boom_remarks}}</td></tr>
+            <tr> <td> 行业未来6-12月趋势 </td> <td>{{form.industry_prospects}}</td>  <td>{{form.industry_prospects_remarks}}</td></tr>
+            <tr> <td> 公司的行业地位 </td> <td>{{form.industry_rank}}</td>  <td>{{form.industry_rank_remarks}}</td></tr>
+            <tr> <td> 募投项目用途 </td> <td>{{form.fund_usage}}</td>  <td>{{form.fund_usage_remarks}}</td></tr>
+            <tr> <td> 未来开支计划 </td> <td>{{form.future_expenditure}}</td> <td>{{form.future_expenditure_remarks}}</td> </tr>
+        </table>
+
+        <br/><b>Wind数据计算的因子：</b><br/>
+        <table border=0.1px align="center">
+            <tr>
+                <th>项目</th>
+                <th>因子值</th>
+                <th></th>
+                <th>项目</th>
+                <th>因子值</th>
+            </tr>
+
+            <tr> <td> 大股东比例 </td> <td>{{form.pct_major_shareholders}}</td> <td></td> <td> 母公司利润占比 </td> <td>{{form.pct_profit_of_parent}}</td> </tr>
+            <tr> <td> 总资产规模 </td> <td>{{form.total_asset}}</td> <td></td> <td> 净资产规模 </td> <td>{{form.net_asset}}</td> </tr>
+            <tr> <td> 净资产变化率 </td> <td>{{form.net_asset_chg}}</td> <td></td> <td> 营业收入 </td> <td>{{form.revenue}}</td> </tr>
+            <tr> <td> 净利润 </td> <td>{{form.net_profit}}</td> <td></td> <td> 营业利润 </td> <td>{{form.operating_profit}}</td> </tr>
+            <tr> <td> EBITDA </td> <td>{{form.EBITDA}}</td> <td></td> <td> 经营现金流净额 </td> <td>{{form.operating_cashflow}}</td> </tr>
+            <tr> <td> 毛利率 </td> <td>{{form.gross_margin}}</td> <td></td> <td> 净利率 </td> <td>{{form.profit_margin}}</td> </tr>
+            <tr> <td> 过去三年毛利率标准差 </td> <td>{{form.gross_margin_std}}</td> <td></td> <td> 毛利率变化值 </td> <td>{{form.gross_margin_chg}}</td> </tr>
+            <tr> <td> ROE </td> <td>{{form.roe}}</td> <td></td> <td> (现金-短债)/净资产, 含应付应收 </td> <td>{{form.short_solvency_1}}</td> </tr>
+            <tr> <td> (现金-短债)/净资产，含有息债务 </td> <td>{{form.short_solvency_2}}</td> <td></td> <td> 有息负债率 </td> <td>{{form.debt_ratio_with_interest}}</td> </tr>
+            <tr> <td> 有息负债变化值 </td> <td>{{form.debt_ratio_with_interest_chg}}</td> <td></td> <td> 资产负债率 </td> <td>{{form.debt_ratio}}</td> </tr>
+            <tr> <td> 三费费率 </td> <td>{{form.cost_ratio}}</td> <td></td> <td> 固定资产/总资产 </td> <td>{{form.fixed_asset_ratio}}</td> </tr>
+            <tr> <td> 经营现金流/总债务 </td> <td>{{form.operating_cf_to_debt}}</td> <td></td> <td> 三年经营现金流波动 </td> <td>{{form.operating_cf_std}}</td> </tr>
+            <tr> <td> EBITDA/总债务 </td> <td>{{form.ebitda_to_debt}}</td> <td></td> <td> 固定资产周转率 </td> <td>{{form.fixed_asset_turnover}}</td> </tr>
+            <tr> <td> 存货周转天数 </td> <td>{{form.inventory_turnover_days}}</td> <td></td> <td> 应收账款周转天数 </td> <td>{{form.receivable_turnover_days}}</td> </tr>
+            <tr> <td> 未使用授信/总债务 </td> <td>{{form.rest_credit_to_debt}}</td> <td></td><td></td><td></td></tr>
+        </table>
+
+
+    </div>
+
+    <div style="text-align:center;font-size:18px;">
+        <br/>
+            <a href={{ pre_url }}>返回前页</a>
+        <br/>
+    </div>
+</body>
+</html>
